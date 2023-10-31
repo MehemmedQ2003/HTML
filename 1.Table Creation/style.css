@@ -1,0 +1,32 @@
+h1{
+    text-align: center;
+    font-weight: 200;
+    font-size: 50px;
+}
+
+table{
+    width: 50%;
+    font-size: 20px;
+    margin: 10px auto;
+}
+
+table, th, td {
+    text-align: center;
+    border: 3px solid black;
+    border-collapse: collapse;
+}
+
+table th{
+    padding: 5px 10px;
+    background-color: green;
+}
+
+table td{
+    border-collapse: collapse;
+    border-top: 6px solid black;
+    padding: 5px 10px;
+}
+
+tr:nth-child(3), tr:nth-child(5){
+    background-color: rgb(61, 175, 220);
+}

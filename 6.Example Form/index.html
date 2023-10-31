@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example Form</title>
+    <style>
+        fieldset{
+            padding: 20px;
+            font-size: 18px;
+        }
+
+        input, select, textarea {
+            margin: 10px 5px;
+            resize: none;
+        }
+    </style>
+</head>
+<body>
+
+    <form>
+        <fieldset>
+            <legend>Personal Details</legend>
+
+            <label>Country</label>
+            <select>
+                <option value="none" selected>--None--</option>
+                <option value="tr">Turkey</option>
+                <option value="az">Azerbaijan</option>
+                <option value="fs">Falestine</option>
+            </select>
+            <br>
+
+            <label>First Name:</label>
+            <input type="text">
+            <br>
+
+            <label>Last Name:</label>
+            <input type="text">
+            <br>
+
+            <label>Gender</label>
+            <input type="radio" name="gender">Male
+            <input type="radio" name="gender">Female
+            <br>
+
+            <label>Email:</label>
+            <input type="email">
+            <br>
+            
+            <label>Date of Birth:</label>
+            <input type="date">
+            <br>
+
+            
+            <label>Address:</label>
+            <br>
+            <textarea rows="5" cols="40"></textarea>
+            <br>
+
+            <input type="submit" value="Submit">
+        </fieldset>
+    </form>
+
+</body>
+</html>
